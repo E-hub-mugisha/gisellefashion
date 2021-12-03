@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
-
+import Header from './lambda/Header';
 
 class App extends Component {
   render() {
@@ -14,6 +14,7 @@ class App extends Component {
           </p>
           
         </header>
+        <Header />
       </div>
     )
   }
