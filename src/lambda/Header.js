@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div>
+        
             <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header page-scroll">
@@ -32,7 +32,7 @@ const Header = () => {
         </div>
     </div>
 </nav>
-        </div>
+        
     )
 }
 
