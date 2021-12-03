@@ -1,18 +1,12 @@
-import React, { Component } from "react"
-import logo from "./logo.svg"
-import "./App.css"
-import Hello from './lambda/Hello';
+import './App.css';
+import Header from './lambda/Header';
 
-
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        
-        <LambdaDemo />
-      </div>
-    )
-  }
+function App(){
+  return (
+    <>
+    <Header />
+    </>
+  );
 }
 
-export default App
+export default App;
